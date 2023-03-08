@@ -1,0 +1,6 @@
+<div class="question">
+  <div class="question-text" (click)="toggle()">{{question.text}} <span class="selected-answer">{{selectedAnswer}}</span></div>
+  <div [@openClose]="isOpen ? 'open' : 'closed'">
+    <button *ngFor="let option of question.options" (click)="optionSelected(option)">{{option.label}}</button>
+  </div>
+</div>

@@ -1,5 +1,7 @@
 # QuestionsWithAnswerButtonsDemo
 
+This is a quick example of an Angular component for rendering questions with a different button for each possible answer. The component uses Angular Animations to expand and contract based on the state of the question.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
 ## Development server

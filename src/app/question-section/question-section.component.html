@@ -1,0 +1,6 @@
+<div class="question-section">
+  <div class="section-heading">{{questionSection.heading}}</div>
+  <div *ngFor="let question of questionSection.questions">
+    <app-question [question]="question"></app-question>
+  </div>
+</div>
